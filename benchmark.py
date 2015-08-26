@@ -3,7 +3,7 @@ import time
 from main import GerarFizzBuzz
 
 if __name__ == '__main__':
-    lista = range(1, 10001)
+    lista = range(1, 100001)
 
     m0t1 = time.clock()
     GerarFizzBuzz(lista, 0)
